@@ -12,7 +12,6 @@ int fat(int value) {
     int aux = value - 1;
 
     while(aux > 1) {
-        printf("value: %d, aux: %d\n", value, aux); // teste para saber os valores utilizados
         value *= aux--;
     }
     return value;

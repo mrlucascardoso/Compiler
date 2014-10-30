@@ -8,7 +8,14 @@ int main(){
 }
 
 int fat(int value) {
-    //Logica do fatorial
+    if (value < 1) return 0; // Caso value for menor que 1 retornará 0
+    int aux = value;
+
+    while(aux > 1) {
+        printf("value: %d, aux: %d\n", value, aux);
+        value *= aux--;
+    }
+    return value;
 }
 
 

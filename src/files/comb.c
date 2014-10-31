@@ -4,7 +4,7 @@ int fat(int value);// Função responsavel pelo fatorial
 
 // Função principal
 int main(){
-    //Logica principal
+    printf("Oi boquinha");
 }
 
 int fat(int value) {

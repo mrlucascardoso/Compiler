@@ -4,6 +4,7 @@ int fat(int value);// Função responsavel pelo fatorial
 
 // Função principal
 int main(){
+
    Int n,s,aux,Res; //declarando as variaveis
 
    printf("numero n"); // aqui é para digitar o numero de n
@@ -20,7 +21,7 @@ int main(){
 
    }else if(n<0 || s<0){
 
-   printf("Erro2");
+   printf("Erro 2");
 
    } else if(n==s){
 

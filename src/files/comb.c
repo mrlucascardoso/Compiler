@@ -4,9 +4,9 @@ long int fat(int long value);// Função responsavel pelo fatorial
 
 // Função principal
 int main(){
-    long int n, s, RES;                          // declarando as variaveis
-    scanf("%ld", &n);                        // lendo variavel n
-    scanf("%ld", &s);                        // lendo variavel s
+    long int n, s, RES;                     // declarando as variaveis
+    scanf("%ld", &n);                       // lendo variavel n
+    scanf("%ld", &s);                       // lendo variavel s
     if(  n < 0 || s < 0 ) {                 // caso n e/ou s seja menor que zero
         printf("exit(%d)\n", 2);            // emite erro 2
         return 2;

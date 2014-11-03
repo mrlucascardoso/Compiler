@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-long int fat(int long value);// Função responsavel pelo fatorial
+long int fat(int long value);               // Função responsavel pelo fatorial
 
 // Função principal
 int main(){
@@ -29,7 +29,8 @@ int main(){
 }
 
 long int fat(long int value) {
-    if (value < 1) return 0;     // caso value for menor que 1 retornará 0
+    if (value == 0) return 1;               // caso value for 0 por definicao retornara 1
+    if (value < 0) return -1;                // caso value for negativo retornara -1 pois nao existe
     long int aux = value - 1;
 
     while(aux > 1) {
